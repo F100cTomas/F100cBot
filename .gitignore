@@ -1,3 +1,17 @@
+# secrets
+include/secrets.hpp
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+CMakeSettings.json
+
+# Clangd
+.cache/
+compile_commands.json
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,3 +24,6 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+
+[Oo]ut/
+[Bb]uild/
